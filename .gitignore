@@ -1,0 +1,4 @@
+src/AspNet5Angular2Demo/node_modules
+src/AspNet5Angular2Demo/wwwroot/appScripts/
+.vs/AspNet5Angular2Demo/v14/.suo
+.vs/config/applicationhost.config
