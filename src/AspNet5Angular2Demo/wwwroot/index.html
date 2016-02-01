@@ -1,5 +1,6 @@
 ﻿<html>
 <head>
+    <!--http://www.mithunvp.com/angular-2-in-asp-net-5-typescript-visual-studio-2015/-->
     <title>Angular 2 QuickStart</title>
     <!-- 1. Load libraries -->
     <!-- IE required polyfills, in this exact order -->
@@ -9,14 +10,14 @@
     <script src="libs/angular2.dev.js"></script>
     <!-- 2. Configure SystemJS -->
     <script>
-      System.config({
-          packages: {
-              appScripts: {
-                  defaultExtension: 'js'
-              }
-          }
-      });
-      System.import('appScripts/boot')
+        System.config({
+            packages: {
+                appScripts: {
+                    defaultExtension: 'js'
+                }
+            }
+        });
+        System.import('appScripts/boot')
             .then(null, console.error.bind(console));
     </script>
 </head>
